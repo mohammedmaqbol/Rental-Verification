@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Logo from '../assets/images/logo.png'
 import { CiLocationOn } from "react-icons/ci";
 import { IoCallOutline } from "react-icons/io5";
+import { BsCursor } from "react-icons/bs";
 
 
 function ThankYouPage() {
@@ -24,7 +25,7 @@ function ThankYouPage() {
                 </div>
                 <ul className="links">
                     <li>
-                        <p>First Pacific Group, Inc.</p>
+                        <p><BsCursor size={16} /> First Pacific Group, Inc.</p>
                     </li>
                     <li>
                         <p><CiLocationOn size={18} />675 Gilman St Palo Alto, CA 94301-2528</p>

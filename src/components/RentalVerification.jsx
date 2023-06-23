@@ -78,9 +78,8 @@ function RentalVerification() {
                 VerifiedBy: VerifiedBy,
                 title: title
             }
-            console.log(data);
 
-            emailjs.send('service_5s28b5r', 'template_bv6gnef', data, 'oQseoodrPUV7HvKmr')
+            emailjs.send('service_7a1pr9e', 'template_u2x1v9r', data, 'MedwSOupMIQJ2eyF_')
                 .then((result) => {
                     window.location.href = '/thanks';
                 }, (error) => {
